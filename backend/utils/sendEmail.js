@@ -4,8 +4,8 @@ import path from "path"
 const transporter = nodemailer.createTransport({
   service: "Gmail",
   auth: {
-    user: "forthirdpartysites@gmail.com", // Replace with your email
-    pass: "ewrv yqqs wpue qifo", // Replace with your email password (use an app password if 2FA is enabled)
+    user: "your email", // Replace with your email
+    pass: "your password", // Replace with your email password (use an app password if 2FA is enabled)
   },
 })
 
